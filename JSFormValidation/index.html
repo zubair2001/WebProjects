@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Create Account</h1>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="userName">Username: </label>
+                <input type="text" class="userName" id="userName" placeholder="username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Massage</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email: </label>
+                <input type="email" class="email" id="email" placeholder="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Massage</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password: </label>
+                <input type="password" class="password" id="password" placeholder="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Massage</small>
+            </div>
+
+            <div class="form-control">
+                <label for="rePassword">Re-type Password: </label>
+                <input type="password" class="rePassword" id="rePassword" placeholder="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Massage</small>
+            </div>
+            <input type="submit" class="form-submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="./validation.js"></script>
+</body>
+
+</html>
